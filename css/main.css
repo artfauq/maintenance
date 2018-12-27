@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  background-color: #000c14; }
+
+body,
+.main {
+  min-height: 100%; }
+
+h1 {
+  margin: 0;
+  padding: 12px 0;
+  text-transform: uppercase;
+  font-family: Quicksand, sans-serif;
+  letter-spacing: 5px;
+  color: rgba(255, 255, 255, 0.95);
+  position: relative; }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8em; } }
+
+#info-maintenance {
+  width: 300px;
+  height: 100px;
+  position: relative; }
+  @media (min-width: 768px) {
+    #info-maintenance {
+      width: 400px; } }
+  #info-maintenance svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #info-maintenance svg line {
+      stroke-width: 3;
+      fill: none;
+      stroke: #ecf0f1;
+      transition: all 0.5s; }
+  #info-maintenance.animate svg.hidden-xs line {
+    stroke-width: 10; }
+    #info-maintenance.animate svg.hidden-xs line.line-top {
+      transform: translateX(-400px); }
+    #info-maintenance.animate svg.hidden-xs line.line-right {
+      transform: translateY(100px); }
+    #info-maintenance.animate svg.hidden-xs line.line-bottom {
+      transform: translateX(400px); }
+    #info-maintenance.animate svg.hidden-xs line.line-left {
+      transform: translateY(-100px); }
+  #info-maintenance.animate svg.visible-xs line {
+    stroke-width: 10; }
+    #info-maintenance.animate svg.visible-xs line.line-top {
+      transform: translateX(-300px); }
+    #info-maintenance.animate svg.visible-xs line.line-right {
+      transform: translateY(100px); }
+    #info-maintenance.animate svg.visible-xs line.line-bottom {
+      transform: translateX(300px); }
+    #info-maintenance.animate svg.visible-xs line.line-left {
+      transform: translateY(-100px); }
+
+.flexbox {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+/*# sourceMappingURL=maps/main.css.map */
