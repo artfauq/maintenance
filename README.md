@@ -8,4 +8,4 @@ Link: [Github Pages](https://arthurfauq.github.io/maintenance/)
 
 ## License
 
-MIT
+[MIT](https://github.com/arthurfauq/maintenance/blob/master/LICENSE.md)
